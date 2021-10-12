@@ -17,6 +17,8 @@
 
 📌 Advanced Circle Properties
 
+📌 Integration of Font Awesome Icons
+
 
 
 
