@@ -19,6 +19,9 @@
 
 📌 Integration of Font Awesome Icons
 
+![Timer Javascript app](https://user-images.githubusercontent.com/69568555/136983545-2542f4f7-6ea9-49f5-8806-fda08cd805c5.mov)
+
+
 
 
 
