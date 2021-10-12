@@ -8,10 +8,10 @@
 
   
 ## 🚀 About Me
--I'm a Language Agnostic & Platform Independent Software Engineer that technoloy is my last priority but the science behind technoloy is what makes me learning recently I'm training into Data Analysis Field to be a professional data analayst
+-I'm a Language Agnostic & Platform Independent Software Engineer that technoloy is my last priority but the science behind technoloy is what makes me learning Software Engineering Principles continously. Recently I'm training into Data Analysis Field to be a professional data analayst
   
 ## 🛠 Skills
-Java, OOOP, Dart, Flutter, Python, Javascript, HTML, CSS, SQL, Android Native Mobile App Development, Data Structures, Algorithms, High Level English Speaker
+Java, OOOP, Dart, Flutter, Python, Javascript, HTML, CSS, SQL, Android Native Mobile App Development, Data Structures, Algorithms, Operating Systems, Design Thinking, High Level English Speaker
 
   
 ## Screenshots
