@@ -7,9 +7,9 @@
 
 ➡️ Solving Confusiona about This keyword and its three cases with different functionalities for each one
 
-➡️ DOM-Centric Approach
+➡️ DOM-Centric Approach vs Javascript-Centric Approach
 
 ➡️ GETTERS & SETTERS Walkthrough
 
-➡️
+➡️ Emitting Events through Callbacks
 
