@@ -1,15 +1,23 @@
 
 # Timer Javascript App
 
-➡️ Getting Classes and OOP in practice
+📌 Getting Classes and OOP in practice
 
-➡️ Implementation of Event Based Architecture
+📌 Implementation of Event Based Architecture
 
-➡️ Solving Confusiona about This keyword and its three cases with different functionalities for each one
+📌 Solving Confusiona about This keyword and its three cases with different functionalities for each one
 
-➡️ DOM-Centric Approach vs Javascript-Centric Approach
+📌 DOM-Centric Approach vs Javascript-Centric Approach
 
-➡️ GETTERS & SETTERS Walkthrough
+📌 GETTERS & SETTERS Walkthrough
 
-➡️ Emitting Events through Callbacks
+📌 Emitting Events through Callbacks
+
+📌 Rules of Scalable Vector Graphics HTML Element
+
+📌 Advanced Circle Properties
+
+
+
+
 
