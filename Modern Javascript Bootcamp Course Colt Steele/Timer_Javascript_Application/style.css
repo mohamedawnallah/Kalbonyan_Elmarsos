@@ -12,9 +12,22 @@
 	font: inherit;
 }
 
+html,
+body {
+	height: 100%;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
 body {
 	font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica,
 		Arial, sans-serif;
+
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .timer input {
