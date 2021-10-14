@@ -23,11 +23,13 @@
 
 📌 Spread Operator Enhancement
 
-📌 
+📌 Error Handling for non-valid images
 
-📌 
+📌 Bulma CSS Framework
 
-📌 
+📌 Close Autocomplete Widget when user clicks outside the Root HTML Element
+
+📌
 
 Application Demo:
 
