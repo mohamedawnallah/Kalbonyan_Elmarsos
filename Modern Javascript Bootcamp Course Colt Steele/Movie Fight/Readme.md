@@ -29,7 +29,9 @@
 
 📌 Close Autocomplete Widget when user clicks outside the Root HTML Element
 
-📌
+📌 Followup Request
+
+📌 
 
 Application Demo:
 
