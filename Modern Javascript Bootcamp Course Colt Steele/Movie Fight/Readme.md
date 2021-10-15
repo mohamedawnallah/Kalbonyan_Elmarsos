@@ -1,6 +1,8 @@
 
 # Movies Fight Javascript App
 
+⚠️ The omdbapi is restricted in egypt it is a lot better to run Us vpn(preferred) so app can run smoothly
+
 📌 What is boilerplate code ?
 
 📌 Same Origin Policy
@@ -31,11 +33,15 @@
 
 📌 Followup Request
 
-📌 
+📌 Refactoring
+
+📌 String Manipulation Methods In Practice
+
+📌 Put Reduce In Practice
 
 Application Demo:
 
-<!-- https://user-images.githubusercontent.com/69568555/136984006-75255039-839a-4ccf-979e-807576cf6ea3.mp4 -->
+
 
 
 
