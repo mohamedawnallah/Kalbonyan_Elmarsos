@@ -1,11 +1,12 @@
 const { Engine, Render, Runner, World, Bodies } = Matter;
 
+const cells = 3;
+const width = 600;
+const height = 600;
+
 const engine = Engine.create();
 
 const { world } = engine;
-
-const width = 600;
-const height = 600;
 
 const render = Render.create({
 	element: document.body,
@@ -32,6 +33,71 @@ const walls = [
 World.add(world, walls);
 
 // Maze Generation
-const grid = Array(3).fill(null).map(() => Array(3).fill(false));
 
-console.log(grid);
+const shuffle = (arr) => {
+	let counter = arr.length;
+
+	while (counter > 0) {
+		//1 Random Value
+		let index = Math.floor(Math.random() * counter);
+
+		counter--;
+		const temp = arr[counter];
+		arr[counter] = arr[index];
+		arr[index] = temp;
+	}
+	return arr;
+};
+
+const grid = Array(cells).fill(null).map(() => Array(cells).fill(false));
+
+const verticals = Array(cells).fill(null).map(() => Array(cells - 1).fill(false));
+
+const horizontals = Array(cells - 1).fill(null).map(() => Array(cells).fill(false));
+
+const startRow = Math.floor(Math.random() * cells);
+const startColumn = Math.floor(Math.random() * cells);
+
+const stepThroughCell = (row, column) => {
+	// If i have visted the cell at [row, column], then return
+	if (grid[row][column]) {
+		return;
+	}
+	// Mark this cell as being visited
+	grid[row][column] = true;
+	// Assemble randomly-ordered list of neighbors
+	const neighbors = shuffle([
+		[ row - 1, column, 'up' ],
+		[ row, column + 1, 'right' ],
+		[ row + 1, column, 'down' ],
+		[ row, column - 1, 'left' ]
+	]);
+
+	// For each neighbor....
+	for (let neighbor of neighbors) {
+		const [ nextRow, nextColumn, direction ] = neighbor;
+
+		// See if that neighbor is out of bounds
+		if (nextRow < 0 || nextRow >= cells || nextColumn < 0 || nextColumn >= cells) {
+			continue;
+		}
+		// If we have visited that neighbor, continue to next neighbor
+		//Defensive Programming
+		if (grid[(nextRow, nextColumn)]) {
+			continue;
+		}
+		// Remove a wall from either horizontals or verticals
+		if (direction === 'left') {
+			verticals[row][column - 1] = true;
+		} else if (direction === 'right') {
+			verticals[row][column] = true;
+		} else if (direction === 'up') {
+			verticals[row - 1] = true;
+		} else if (direction === 'down') {
+			horizontals[row][column] = true;
+		}
+		// Visit that next cell
+		stepThroughCell(nextRow, nextColumn);
+	}
+};
+stepThroughCell(1, 1);
