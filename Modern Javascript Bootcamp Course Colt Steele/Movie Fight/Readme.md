@@ -39,7 +39,10 @@
 
 📌 Put Reduce In Practice
 
-Application Demo:
+Application Live:
+
+https://movie-fight-awni.vercel.app/
+
 
 
 

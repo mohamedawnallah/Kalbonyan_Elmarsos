@@ -19,9 +19,9 @@
 
 📌 Integration of Font Awesome Icons
 
-Application Demo:
+Application Live:
 
-https://user-images.githubusercontent.com/69568555/136984006-75255039-839a-4ccf-979e-807576cf6ea3.mp4
+https://timer-javascript-application.vercel.app
 
 
 
