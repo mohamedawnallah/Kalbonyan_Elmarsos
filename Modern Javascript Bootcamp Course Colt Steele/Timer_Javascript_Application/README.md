@@ -21,9 +21,7 @@
 
 Application Live:
 
-https://timer-javascript-application.vercel.app
-
-
+https://timer-javascript-application-awni.vercel.app/
 
 
 
