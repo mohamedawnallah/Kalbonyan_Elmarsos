@@ -9,12 +9,11 @@
 
 📌 Build Shuffle Function Manually
 
-📌
-
+📌 Collison Bodies Handling
 
 Application Live:
 
-https://mixed-shapes-dragger-game-awni.vercel.app/
+https://maze-game-awni.vercel.app/
 
 
 
