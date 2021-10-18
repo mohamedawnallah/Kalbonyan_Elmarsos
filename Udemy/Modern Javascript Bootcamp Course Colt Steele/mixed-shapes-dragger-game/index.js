@@ -4,8 +4,8 @@ const engine = Engine.create();
 
 const { world } = engine;
 
-const width = 800;
-const height = 600;
+const width = window.innerWidth;
+const height = window.innerHeight;
 
 const render = Render.create({
 	element: document.body,
