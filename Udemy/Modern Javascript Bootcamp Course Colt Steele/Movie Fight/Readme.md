@@ -17,9 +17,9 @@
 
 📌 Input Event Listener
 
-📌 Delaying Search Input
-
 📌 Debouncing an Input (Theory and Practice) 
+
+📌 Play With AJAX(AJAJ)
 
 📌 Apply Function
 
@@ -28,8 +28,6 @@
 📌 Error Handling for non-valid images
 
 📌 Bulma CSS Framework
-
-📌 Close Autocomplete Widget when user clicks outside the Root HTML Element
 
 📌 Followup Request
 
