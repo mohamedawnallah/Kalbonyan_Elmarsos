@@ -1,0 +1,19 @@
+img {
+	width: 70px;
+	position: absolute;
+	top: 100px;
+	left: 10px;
+}
+#coin {
+	width: 40px;
+	position: absolute;
+	top: 100px;
+	left: 30px;
+}
+p {
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: medium;
+	text-align: center;
+}
+
