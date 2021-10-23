@@ -136,7 +136,7 @@
 
 📌 What is Vim ?
 
-📌
+📌 Configuration Git's Default Editor
 
 📌
 
