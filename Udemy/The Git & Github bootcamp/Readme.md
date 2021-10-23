@@ -138,6 +138,24 @@
 
 📌 Configuration Git's Default Editor
 
+📌 We need commit hashes to undo a commit
+
+📌 git log --abbrev-commit
+
+📌 git log --oneline
+
+📌 Committing with a GUI GITKARKEN Tool
+
+📌 
+
+📌
+
+📌
+
+📌
+
+📌
+
 📌
 
 📌
