@@ -146,11 +146,25 @@
 
 📌 Committing with a GUI GITKARKEN Tool
 
-📌 
+📌 git commit --amend to redo the previous commit 
+  1.Changes you forgot 2.Typo you've made in commit message
 
-📌
+📌 There are files and directories to ignore in a given repository so we use .gitignore file for whatever you don't want to commit:
 
-📌
+Secrets, API Keys, Credentials
+
+Operating System Files (.DS_Store on Mac)
+
+Log Files (Files are output your application automatically generated)
+
+Dependencies and Packages
+
+📌 Three Patterns to ignore files and folders:
+.DS_Store (will ignore all the files names .DS_Store)
+
+folderName/ (will ignore the entire directory)
+
+*.log (will ignore any files with .log extension)
 
 📌
 
