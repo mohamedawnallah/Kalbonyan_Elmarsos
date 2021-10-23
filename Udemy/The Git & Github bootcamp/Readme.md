@@ -97,7 +97,55 @@
 
 📌 The mysterious git folder
 
+📌 Git tracks everthing nested into folders
+
+📌 DO NOT INIT A REPO INSIDE A REPO
+
+📌 Working Directory vs Staging Area vs Repository Area (which is .git folder)
+
+📌 if you type git commit It will prompts a text editor to type in
+
+📌 git commit -m to pass an inline commit message rather than launching a text editor
+
+📌 git log retrieves log of commits
+
+📌 Commit hash overview
+
+📌 Writing Atomic Commits
+
+📌 Configuring Default Editor
+
+📌 Working with a GUI
+
+📌 Amending Commits
+
+📌 Git Ignore
+
+📌 Navigating the Git Documentation
+
+📌 Writing Good Commit Messages
+
+📌 One command can have many options
+
+📌 Atomic means a basic and single unit | Irreducible, focuses only on a single thing
+   
+📌 Break up commits to achieve atomic commits concept
+
+📌 The way writing comitting messages Present Tense
+   and Imperative Style
+
+📌 What is Vim ?
+
 📌
+
+📌
+
+📌
+
+📌
+
+📌
+
 Application Live:
 
 https://movie-fight-awni.vercel.app/

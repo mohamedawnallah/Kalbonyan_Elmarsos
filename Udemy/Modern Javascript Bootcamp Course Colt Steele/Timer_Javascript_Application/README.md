@@ -1,11 +1,11 @@
 
 # Timer Javascript App
 
-📌 Getting Classes and OOP in practice
+📌 Getting Classes and OOP using javascript in practice 
 
 📌 Implementation of Event Based Architecture
 
-📌 Solving Confusiona about This keyword and its three cases with different functionalities for each one
+📌 Solving Confusion about This keyword and its three cases with different functionalities for each one
 
 📌 DOM-Centric Approach vs Javascript-Centric Approach
 
