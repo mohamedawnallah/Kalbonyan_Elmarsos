@@ -166,11 +166,31 @@ folderName/ (will ignore the entire directory)
 
 *.log (will ignore any files with .log extension)
 
-📌
+📌 gitignore.io
 
-📌
+📌 Branching what is it? why use it?
 
-📌
+📌 Understanding Git Head
+
+📌 Git Branch
+
+📌 Git Switch
+
+📌 Git Checkout
+
+📌 Git Deletion and Renaming Branches
+
+📌 Heads and Refs behind the scenes
+
+📌 Master vs Main Branch
+
+📌 Each commit has Its own Hash and at least references one parent commit before it
+
+📌 Branches enable us to create separate contexts where we can try new things or even work on multiple ideas
+
+📌 Linear fashion vs non linear one
+
+📌 you're always working on a branch which it is branch master
 
 📌
 
