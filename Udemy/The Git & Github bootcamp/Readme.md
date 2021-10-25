@@ -292,7 +292,37 @@ git branch -m <new-branch-name>
 
 📌 Git diff --staged
 
-📌
+📌 We can use the git diff command to view changes between commits, branches, files, working directory and more
+
+📌 we use git diff alongside commands like git status and git log
+
+📌 git status, git diff and git log are informative commands
+
+📌 Reconsolidation of git log --oneline
+
+📌 git diff compares Staging Area and Working Directory
+
+📌 git Explains Which file it is comparing. Usually There is two versions of the same file
+
+📌 Git also declares one file as "A" and the other as "B"
+
+📌 Next we have <File-Meta-Data>The first two numbers are the hashes of the two files and last nuber is an internal file mode identifier
+
+📌 Markers
+
+📌 Then We have chunks That are modified also Chunks don't contain only modified changes but also unchanged lines to provide some context
+
+📌 Each Chunk Starts with a Chunk Header found between @@ and @@
+
+📌 Then We've actual Changes
+
+📌 Lines begin with - comes from file a
+
+📌 Lines begin with + comes from file b
+
+📌 Staging Area Also Refers to an Index
+
+📌 git diff HEAD lists all changes in the working tree since your last commit
 
 📌
 
@@ -308,13 +338,6 @@ git branch -m <new-branch-name>
 
 📌
 
-📌
-
-📌
-
-📌
-
-📌
 
 Application Live:
 
