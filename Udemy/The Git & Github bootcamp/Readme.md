@@ -263,7 +263,36 @@ git branch -m <new-branch-name>
 
 📌 Fast-Forward Merge
 
-📌 
+📌 Not every merge is fast forward
+
+📌 Commits can have multiple parents whenever we make a merged commit
+
+📌 Merge Commit vs Fast Forward Merge
+
+📌 Merge Conflicts is a multistep process Resolving Conflicts and commiting results
+
+📌 Git changes the contents of your files to indicate conflicts that It wants you to resolve
+
+📌 The content from branch you're going to merge is displayed between the 
+===================
+
+>>>>>>>>>>>>>>>>>>>
+
+📌 Accept Incoming Change vs Current Change
+
+📌 Reading Diffs
+
+📌 Git Diff Basics
+
+📌 Diffing Branches
+
+📌 Diffing Commits
+
+📌 Diffing Specific Files
+
+📌 Git diff --staged
+
+📌
 
 📌
 
