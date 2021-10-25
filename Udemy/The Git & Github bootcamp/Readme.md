@@ -192,6 +192,95 @@ folderName/ (will ignore the entire directory)
 
 📌 you're always working on a branch which it is branch master
 
+📌 Default branch name is master branch
+
+📌 In 2020, "Github" renamed the default branch from master to main
+
+📌 The default git branch is still master
+
+📌 HEAD is a pointer to current location in repository it is usually a pointer to the branch reference 
+
+📌 HEAD always points to latest commit you made on the master branch is SIMPLY A BRANCH POINTER
+
+📌 Branch are bookmarks only one branch can be opened
+
+📌 git branch to view current branch you're working on
+
+📌 The active branch has asterisk next to it
+
+📌 git branch <branchname> that create a branch (It does not switch HEAD) based upon the current HEAD
+
+📌 git switch <branch-name>
+
+📌 git commit -a -m <message> adding all unstaging changes
+
+📌 git checkout <branch-name> switching branches as well as restore working tree files 
+
+📌 git checkout <branch-name> vs git switch
+
+📌 git switch -c <branch-name> with -c flag to create a new branch and switch to it
+
+📌 git checkout -b <branch-name> with -b flag to create a new branch and switch to it
+
+📌 While There is no application with a file there will be no conflicts
+
+📌 git branch -d <branch-name> to delete a branch or that command
+git branch --delete <branch-name>
+
+📌 YOU CAN NOT DELETE A BRANCH THAT YOU'RE CURRENTLY IN
+
+📌 git branch -D or 
+   git branch --delete --force
+   To DELETE THE BRANCH FORCEly
+
+📌 To Rename a branch you've to be on the branch you wanna rename
+git branch -m <new-branch-name>
+
+📌 Head Reference a branch and each branch reference a commit
+
+📌 Cat(concatenate) command is very frequently used in Linux. It reads data from the file and gives their content as output. It helps us to create, view, concatenate files. So let us see some frequently used cat commands. 
+
+📌 Behind the scenes .git folder
+
+📌 Fast Forward Merges
+
+📌 Git Merge & Merge Commits
+
+📌 Resolving Merge Conflicts
+
+📌 Using VSCode to Resolve Conflicts
+
+📌 Some people treat master branch the source of truth or the most stable build of an application
+
+📌 Master Branch and Feature Branch
+
+📌 - We merge branches, not specifc commits
+   - We always merge to the current HEAD branch
+
+📌 receiving branch
+
+📌 git merge branch
+
+📌 Fast-Forward Merge
+
+📌 
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
 📌
 
 📌
