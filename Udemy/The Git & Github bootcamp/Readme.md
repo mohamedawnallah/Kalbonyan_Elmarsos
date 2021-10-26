@@ -274,9 +274,9 @@ git branch -m <new-branch-name>
 📌 Git changes the contents of your files to indicate conflicts that It wants you to resolve
 
 📌 The content from branch you're going to merge is displayed between the 
-===================
+"==================="
+">>>>>>>>>>>>>>>>>>>"
 
->>>>>>>>>>>>>>>>>>>
 
 📌 Accept Incoming Change vs Current Change
 
@@ -298,6 +298,15 @@ git branch -m <new-branch-name>
 
 📌 git status, git diff and git log are informative commands
 
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+📌
+=======
+📌 git diff HEAD lists all changes between your current working directory and HEAD
+>>>>>>> Stashed changes
+
+📌 git diff --staged / git diff --cached The changes between last commit and staging area
+=======
 📌 Reconsolidation of git log --oneline
 
 📌 git diff compares Staging Area and Working Directory
@@ -323,31 +332,176 @@ git branch -m <new-branch-name>
 📌 Staging Area Also Refers to an Index
 
 📌 git diff HEAD lists all changes in the working tree since your last commit
+>>>>>>> 3e48a3397a1be98df431eb62491145e8bba8f5dc
 
-📌
+📌 Diff-ing Specific Files
+  git diff HEAD <filename>
+  git diff --staged <filename>
 
-📌
+📌 Comparing Branches
 
-📌
+📌 git diff <branch1>..<branch2>
 
-📌
+📌 git diff <commit1>..<commit2>
 
-📌
+📌 Diff View vs File View vs Unstaged
 
-📌
+📌 Git Diffs Visulaization with GUIs
 
-📌
+📌 The Parent Commit of HEAD (HEAD~1)
 
+📌 Git Stash Basics
+
+📌 Git Stash Save
+
+📌 Git Stash Pop
+
+📌 Git Stash Apply
+
+📌 Dropping & Cleaning The Stash
+
+📌 Working with Multiple Stashes
+
+📌 What happens when I've uncommited changes on one branch and switched to another branch There are two options:
+   - Those changes come with me to the destination branch
+   - Git won't let me switch if it detects potential conflicts
+
+📌 git statsh to pause to save my uncommitted changes (staged and unstaged) and stash them so we can return to them later without having to make unnecessary commits
+
+📌 git stash save === git stash save
+
+📌 git stash pop (to remove the most recently stashed changes in your stash and re-apply them to your working directory)
+
+📌 git stash apply (stash stays in the stash) vs git stash
+
+📌 Stashing Multiple Items in The Stack Stashes
+
+📌 git stash list
+
+📌 Applying Specific Stashes 
+   git stash apply stash@{2}
+
+📌 git stash drop stash@{2}
+
+📌 Checking out commits
+
+📌 Escaping Detached HEAD
+
+📌 Discarding Changes with gut checkout
+
+📌 Git Restore
+
+📌 Git Reset
+
+📌 Git Revert
+
+📌 git checkout is Like a git swiss army knife
+
+📌 We just need the first 7 digits of a commit hash
+
+📌 HEAD usually reference to a branch NOT a specific commit
+
+📌 When we checkout a particular commit, HEAD points at that commit rather than at the branch pointer
+
+📌 Switching to a destination branch (master in that example) we change the reference of HEAD to destination branch so w reattached It
+
+📌 HEAD~1 refers to commit before HEAD (Parent)
+
+📌 HEAD~2 refers to commit before HEAD (grandparent) so on so force
+
+📌 git checkout HEAD <filename> to discard any changes in that file, reverting back to the HEAD. There is a anothof reverting changes 
+git checkout -- <file>
+
+<<<<<<< HEAD
+📌 git restore <file-name> (returns HEAD as a Default Source)=== git checkout HEAD <file-name>
+=======
 
 Application Live:
+>>>>>>> 3e48a3397a1be98df431eb62491145e8bba8f5dc
 
-https://movie-fight-awni.vercel.app/
+📌 git restore --source HEAD~1 <filename>
 
+📌 If you've accidentally added a file to your staging area  with <git-add> and you don't wish to include it in the next commit, you can use git restore to remove it from staging
 
+📌 git restore --staged <file-name>
 
+📌 git reset <commit-hash> We don't lose the changes we lose the commits
 
+📌 git reset --hard <commit-hash> Delete The Specific Commits Hashes and Its Changes
 
+📌 git revert <commit-hash> Should be used when collboration occurs as maybe
 
+📌 What Does Github Do?
 
+📌 Cloning?
 
+📌 Registering for Github and Setting Up SSH Keys
 
+📌 Creating Github Repos
+
+📌 Working With Remotes
+
+📌 Git Push
+
+📌 Github is a hosting platform for git repositories You can put git repos.
+
+📌 Git is a VCS and Github is a hosting git repos
+
+📌 Gitlab, Bitbucket, Gerrit and Github
+
+📌 https://github.com/trending/ developers  for showing Trending Repostories
+
+📌 Being Active on Github is the best way to stay up to date wit projects and tools you rely on
+
+📌 Clonging is a local copy of an existing repository you get
+
+📌 git clone <url> Make sure you're not inside a repo when you clone it
+(Copy + Git Repository Initialization to the full Git History)
+
+📌 Anyone can clone a repository from Github without any permissions
+
+📌 But PUSHING Changes to github repo that's another story entirely. You need permissions to do that
+
+📌 SSH stands for Secure Shell
+   You need to be authenticated on Github to do certain operations like pushing up code from your local maching
+   Once It is configure you can connect to Github without having to supply your username or password
+
+📌 Creation of SSH Key and attaching to Github Repo
+
+📌 Destinations to cloud repository are so-called remotes
+remote === url where a hosted repostory lives + name
+
+📌 git remote or git remote -v (verbose)
+:> The name of remote + url
+
+📌 Remote = URl + label
+
+📌 git remote add <name> <url>
+
+📌 Origin is a conventional Git Remote Name It's just a name for a Url
+
+📌 When we clone a Github repo, The Default Remote name setup for us is called origin
+
+📌 git push <remote> <branch>
+
+📌 Github at the end of 2020 make the default branch name is main NOT master
+
+📌 git branch -m <old-branch> <new-branch>
+
+📌 Once we add Readme.md file or choosing a license or even .gitignor we need to create branch so by default github makes main as the default branch
+
+📌 
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
