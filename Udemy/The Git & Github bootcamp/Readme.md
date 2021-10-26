@@ -504,13 +504,13 @@ remote === url where a hosted repostory lives + name
 
 📌 Your Branch is ahead of 'origin/master' by 2 commits
 
-📌
+📌 Once you've cloned a repository, we have all the data and GIT history for the project at that moment in time However, that does not mean It's all in my workspace
 
-📌
+📌 git branch -r to view the remote branches our local repository knows about
 
-📌
+📌 By default, my master branch is already tracking / connected origin/master
 
-📌
+📌 
 
 📌
 
