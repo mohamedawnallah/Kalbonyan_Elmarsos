@@ -490,7 +490,19 @@ remote === url where a hosted repostory lives + name
 
 📌 Once we add Readme.md file or choosing a license or even .gitignor we need to create branch so by default github makes main as the default branch
 
-📌 
+📌 git branch -M <new-branch-name>
+
+📌 Remote Tracking Branches
+
+📌 Git Fetch
+
+📌 Git Pull
+
+📌 <Remoting-Tracking-Branch> is a reference to the state of the master branch on the remote. I can't move this myself. It's like a bookmark pointing to the last known commit on the master branch on origin
+
+📌 git branch -r (to show remote tracking branch)
+
+📌 Your Branch is ahead of 'origin/master' by 2 commits
 
 📌
 
@@ -505,3 +517,46 @@ remote === url where a hosted repostory lives + name
 📌
 
 📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+ 
