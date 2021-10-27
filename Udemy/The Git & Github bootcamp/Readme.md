@@ -606,19 +606,20 @@ Git assumes the following:
 
 📌 For large projects There are some people who have permissions to push to master directly who is often the Boss So there are PRs
  
-📌
+📌 Configuring Branch Protection Rules
 
-📌
+📌 Forking and Cloning Workflow a factor to prevent centralized repository
 
-📌
+📌 I CAN make CONTRIBUTION with forking and cloning Workflow
 
-📌
+📌 When we clone a repo, Git automatically adds a remote called `origin` that points to our forked repo on github
 
-📌
+📌 Next I add a remote pointing to the original project repo (NOT THE FORK). The Remote can be named anything, but you will often see 
+`upstream` or `original` used
 
-📌
+📌 I can make a pull request from origin but not from upstream or original
 
-📌
+📌 origin -> PR -> Upstream -> Pull from upstream -> push to origin
 
 📌
 
