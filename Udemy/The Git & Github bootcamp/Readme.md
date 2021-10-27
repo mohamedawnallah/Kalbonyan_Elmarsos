@@ -604,7 +604,7 @@ Git assumes the following:
 
 📌 Pull Requests (PR) are not native to Git Itself
 
-📌
+📌 For large projects There are some people who have permissions to push to master directly who is often the Boss So there are PRs
  
 📌
 
