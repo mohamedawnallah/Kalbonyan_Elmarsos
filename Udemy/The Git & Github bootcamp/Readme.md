@@ -274,8 +274,10 @@ git branch -m <new-branch-name>
 📌 Git changes the contents of your files to indicate conflicts that It wants you to resolve
 
 📌 The content from branch you're going to merge is displayed between the 
-"==================="
-">>>>>>>>>>>>>>>>>>>"
+```
+===================
+>>>>>>>>>>>>>>>>>>>
+```
 
 
 📌 Accept Incoming Change vs Current Change
@@ -298,15 +300,15 @@ git branch -m <new-branch-name>
 
 📌 git status, git diff and git log are informative commands
 
+```
 <<<<<<< HEAD
 <<<<<<< Updated upstream
-📌
-=======
+```
 📌 git diff HEAD lists all changes between your current working directory and HEAD
->>>>>>> Stashed changes
+```>>>>>>> Stashed changes```
 
 📌 git diff --staged / git diff --cached The changes between last commit and staging area
-=======
+```=======```
 📌 Reconsolidation of git log --oneline
 
 📌 git diff compares Staging Area and Working Directory
@@ -332,7 +334,7 @@ git branch -m <new-branch-name>
 📌 Staging Area Also Refers to an Index
 
 📌 git diff HEAD lists all changes in the working tree since your last commit
->>>>>>> 3e48a3397a1be98df431eb62491145e8bba8f5dc
+```>>>>>>> 3e48a3397a1be98df431eb62491145e8bba8f5dc```
 
 📌 Diff-ing Specific Files
   git diff HEAD <filename>
@@ -510,53 +512,154 @@ remote === url where a hosted repostory lives + name
 
 📌 By default, my master branch is already tracking / connected origin/master
 
-📌 
+📌 I could checkout origin/newBranch, but That puts me in Detached HEAD
 
-📌
+📌 Fetching vs Pulling
 
-📌
+📌 git fetch will fetch changes into local repository
 
-📌
+📌 git pull will pull changes into workspace
 
-📌
+📌 git fetch <remote> If not specified, <remote> defaults to origin
 
-📌
+📌 git fetch <remote> <branch>
 
-📌
+📌 Unlike fetch pull actually updates our HEAD branch 
 
-📌
+📌 git pull = git fetch + git merge
+             (update the remote tracking branch with the latest changes from remote repository  )
 
-📌
+             (update my current branch with whatever changes are on the remote tracking branch)
 
-📌
+📌 git pull <remote> <branch>
 
-📌
+📌 Pulls can result in merge conflicts
 
-📌
+📌 git pull without specifying a particular remote or branch to pull from.
+Git assumes the following:
+-Remote will be default to origin
+-branch will be default to current branch
 
-📌
+📌 Repo Visibility: Public vs Private
 
-📌
+📌 Adding Github Collaborators
 
-📌
+📌 README.md files
 
-📌
+📌 Writing Markdown
 
-📌
+📌 Github Gists
 
-📌
+📌 Github Pages (Hosting Static WebPages from our repository)
 
-📌
+📌 README File is used to communicate important information about a repository including:
+-What the project does?
+-How to run the project?
+-Why It's noteworthy?
+-Who maintains the project?
 
-📌
+📌 Github will recongnize README and automatically display it on repo's homepage
 
-📌
+📌 Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
-📌
+📌 Thus, “Markdown” is two things: (1) a plain text formatting syntax; and (2) a software tool, written in Perl, that converts the plain text formatting to HTML. See the Syntax page for details pertaining to Markdown’s formatting syntax. You can try it out, right now, using the online Dingus.
 
-📌
+📌 markdown-it demo
 
-📌
+📌 Markdown crash course
+
+📌 Github Pages are public pages that are hosted and published via github
+
+📌 Static Sites don't Support Server Side Code JUST HTML/CSS/JS
+
+📌 User Site: username.github.io (You get only one user site per Github Acccount)
+
+   Projet Site: usernme.github.io/repo-name  (Each Github Repo repo can have a corresponding hosted website )
+
+📌 It is convenient to publish your project site on branch called "gh-pages"
+
+📌 The Problems with Working on a single branch
+
+📌 Feature Branch Workflow
+
+📌 Pull requests
+
+📌 Branch Protection Rules
+
+📌 Forking
+
+📌 Fork-And-Clone Workflow
+
+📌 Centralized Workflow (Everyone works on master/main)
+   AKA The most basic workflow possible
+   They working on Just Single Branch (Main/Master)
+
+📌 if you are in a team and everyone pushes his git to Github repository everyone should pull what other's teammate pushed to as the tip of your current branch is behind its remote counterpart 
+
+📌 Centralized Workflow vs Feature Branch
+
+📌 Treat master/main branch as the official project history
+
+📌 Merging In Feature Branches
+
+📌 Pull Requests (PR) are not native to Git Itself
 
 📌
  
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
