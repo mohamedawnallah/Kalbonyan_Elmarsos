@@ -1,11 +1,6 @@
 # About Kalbonyan Elmarsos
  Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help students become better developers and be able to deal and succeed with the global labor market and compete in it with strength and efficiency.
  <br />
-<<<<<<< HEAD
-
-
-=======
->>>>>>> bd541faae70815899c8f6d908f9daa42f7461dbd
  
  <a href="https://www.linkedin.com/company/%D9%83%D8%A7%D9%84%D8%A8%D9%86%D9%8A%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%B1%D8%B5%D9%88%D8%B5/" target="_blank"><img src="https://img.shields.io/badge/-Kalbonyan%20Elmarsos-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
 ### The Aim of this internship
@@ -85,7 +80,8 @@
 
 ![كالبنيان المرصوص](https://media-exp1.licdn.com/dms/image/C4E0BAQFwAUTlzFpNNw/company-logo_200_200/0/1629893392218?e=1642032000&v=beta&t=t1VUd12bWUppEQJG4ORSp3UIXpYSnyuSUm7xjwKsxco)
 
-### Hello World 👋
+###About Me 🚀
+
 I am a fullstack software engineer from Egypt
 
 - 🌱 I’m currently learning everything
