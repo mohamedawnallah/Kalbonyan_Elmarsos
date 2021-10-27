@@ -621,43 +621,49 @@ Git assumes the following:
 
 📌 origin -> PR -> Upstream -> Pull from upstream -> push to origin
 
-📌
+📌 Rebasing Vs Merging Two Different Ways of Integrating different changes from different branches
 
-📌
+📌 Git Rebase Basics
 
-📌
+📌 When NOT to REBASE
 
-📌
+📌 There are two main ways to use the git rebase command:
+-as an alternative to merging
+-as a cleanup tool
 
-📌
+📌 The Feature Branch has a bunch of merge commit. If the master branch is very active, My feature branch's history is muddied
 
-📌
+📌 git rebase <branch-name>
 
-📌
+📌 rebasing === Rewriting Histories
 
-📌
+📌 When we rebase a branch we are facing that branch on the tip of another branch
 
-📌
+📌 Why Rebase ? We get a much cleaner project history. No unnecessary merge commits! We end up with a linear project history
 
-📌
+📌 The GOLDEN RULE WHEN NOT TO REBASE?
+   Never Rebase commits that have been shared with others. If you have already pushed commits up to Github... DO NOT rebase them unless you're positive no one on the team is using those commits.
 
-📌
+📌 Handling Conflicts & Rebasing
 
-📌
+📌 git rebase --abort
 
-📌
+📌 Interactive Rebasing
 
-📌
+📌 Rewording Commits
 
-📌
+📌 Fixing Up/Squashing Commits
 
-📌
+📌 Dropping Commits
 
-📌
+📌 Rewriting History: Sometimes we want to rewrite `delete`, `rename`, or even `reorder` commits
+(before sharing them) we can do this using 
+git rebase
 
-📌
+📌 we will consider Rebasing as a cleanup tool
 
-📌
+📌 Running git rebase with the -i option will enter the interactive mode, Which allows to edit commits, add files, drop commits, etc.
+Also, notice we are not rebasing onto another branch insteadm we're rebasing a series of cmmits onto the HEAD they currently are based on
 
 📌
 
