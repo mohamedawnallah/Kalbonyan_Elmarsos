@@ -414,12 +414,7 @@ git branch -m <new-branch-name>
 📌 git checkout HEAD <filename> to discard any changes in that file, reverting back to the HEAD. There is a anothof reverting changes 
 git checkout -- <file>
 
-<<<<<<< HEAD
 📌 git restore <file-name> (returns HEAD as a Default Source)=== git checkout HEAD <file-name>
-=======
-
-Application Live:
->>>>>>> 3e48a3397a1be98df431eb62491145e8bba8f5dc
 
 📌 git restore --source HEAD~1 <filename>
 
@@ -664,6 +659,42 @@ git rebase
 
 📌 Running git rebase with the -i option will enter the interactive mode, Which allows to edit commits, add files, drop commits, etc.
 Also, notice we are not rebasing onto another branch insteadm we're rebasing a series of cmmits onto the HEAD they currently are based on
+
+📌 pick -> Use the Commit
+
+📌 reword -> Use the Commit, but edit the commit message
+
+📌 edit -> Use the commit, but stop for amending
+
+📌 fixup -> Use the commit contents but meld it  into previous commit and discord the commit message
+
+📌 drop -> remove commit
+
+📌 by Rewording the commit, It changes the commit hash
+
+📌 `Squash` vs `Fixup`
+
+📌 Dropping Commits With Interactive Rebase
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
 
 📌
 
