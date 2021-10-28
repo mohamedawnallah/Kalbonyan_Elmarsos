@@ -808,22 +808,56 @@ Those keys that we get back are SHA-1 checksums
 
 📌 ```echo 'hello' | git hash-object --stdin -w```
 
-📌 
+📌 git cat-file -p <object-hash> It gives back the value of that object hash key
 
-📌
+📌 Blob stands for Binary Large Objects to store contents of file in a give repository. Blobs don't even include the filenames of each file or any other data. They just store the contents of a file!
 
-📌
+📌 Trees : `Store The contents of a directory`
+           `Each tree contains pointers that can refer to blobs and to other trees`
+   Blobs : Store The contents of a file
 
-📌
 
-📌
+📌 Each entry in a tree contains SHA-1 for each of Blob and tree + mood + type + filename
 
-📌
+📌  git cat-file prints out Git objects
 
-📌
+📌  Commits share a reference to parent commits
+   + commits messages + tree
 
-📌
+📌 Exploring Reflog Files
 
-📌
+📌 The Git Reflog Command
+
+📌 Rescuing Lost Commits With Reflog
+
+📌 Undoing Rebases with Reflog
+
+📌 Time-Based Reflog Qualifiers
+
+📌 Reflogs File
+
+📌 Reflogs are local They expire 
+   Non-Permanent
+
+📌 `git reflog` accepts subcommands show, expir, delete, and exits. Show is the only commonly used variant, and it is the default subcommand.
+
+📌 `git reflog show` will show the log of a specific reference (default to Head)
+
+📌 We can access specific git refs is name@{qualifier}.
+
+📌 The Global Config File
+
+📌 Writing Basic Alliases
+
+📌 to acess global config file using that terminal command `cat ~/.gitconfig`
+
+📌 Adding git Alliases : We can easily set up Git aliases to make our Git Experience a  bit simpler and faster.
+
+📌 for example we could define an  alias "git ci" instead of having to type `git commit`
+
+📌 Or we could define a custom `git lg` command that prints out a custom formatted commit log
+
+📌 .gitconfig file:
+   [alias] s = status l = log
 
 📌
