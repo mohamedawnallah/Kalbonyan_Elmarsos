@@ -676,25 +676,53 @@ Also, notice we are not rebasing onto another branch insteadm we're rebasing a s
 
 📌 Dropping Commits With Interactive Rebase
 
-📌
+📌 Understanding Git Tags
 
-📌
+📌 Understanding Versioning
 
-📌
+📌 Viewing Tags
 
-📌
+📌 LightWeight vs Annotated Tags
 
-📌
+📌 Pushing Tags
 
-📌
+📌 Moving Tags
 
-📌
+📌 Deleting Tags
 
-📌
+📌 Diffing Tags
 
-📌
+📌 Tags are pointers that refers to particular points in Git History. We can mark a particular moment in time with a tag. Tags are most often used to mark version releases in projects 
+"a Label for a commit" 
 
-📌
+📌 There are two types of Git:
+`Lightweight` : (name/label)
+`Annotated Tags` : (author's name, email, date and a tagging message `like a commit message`)
+
+📌 Semantic Versioning: The Semantic Versioning spec outlines a standardized versioning system for software releases(It is just a `Protocol`)
+
+📌 Version consists of three numbers seperated by periods
+
+📌 e.g: 2 . 4 . 1
+      Major Release . Minor Release . Patch Release
+
+📌 `Initial Release` : Typical the first release is :  1 . 0 . 0
+
+📌 `Patch Release` normally don't contain new features or significant changes. They typically signify bug fixes and other changes that don't impact how people use that piece of software
+
+📌 ` Minor Releases` signify that new features or functionality have been added but the project is still backwards compatible. No braeaking changes. The new Functionality is optional and should not force users to rewrite their own code.
+
+📌 Whenever there is a minor release you have to reset the patch releases to zero
+
+📌 `Major Release`  Features may be removed or changed substantially
+
+📌 Once Major Release increase by one reset minor release and patch release both to zero
+
+📌 you can check that website `https://semver.org/`
+
+📌 `git tag` git tag will print a list of all tags in the current repository
+
+📌 `git tag - l "*beta*"` passing tag `l` then passing in a wildcard pattern
 
 📌
 
