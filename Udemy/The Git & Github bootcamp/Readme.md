@@ -724,6 +724,104 @@ Also, notice we are not rebasing onto another branch insteadm we're rebasing a s
 
 📌 `git tag - l "*beta*"` passing tag `l` then passing in a wildcard pattern
 
+📌 `git checkout <tag>` Checking out Tags to view the state of a repo at a particular tag, we can use `git checkout <tag>`. This puts in a detached HEAD
+
+📌 When you checkout a tag YOU're IN A DETACHED HEAD Like when checking out a commit
+
+📌 We can diffs tags Like Branches
+
+📌 `git tag<tagname>` TO CREATE `LIGHTWEIGHT TAG `By default, Git will create the tag referring to the commit that HEAD is referencing
+
+📌 git tag -a <tagname> to create a new annotated tag
+
+📌 git tag -a <tagname> <commit-hash>
+
+📌 git tag -f <tagname>
+
+📌 git tag -d <tagname> to delete tag
+
+📌 Pushing Tags -> git push --tags
+
+📌 git push command doesn't transfer tags to remote servers. If you've lots of tags that you want to push at once. you can use --tags option. This will transfer all of your tags to remote server that are not there
+
+📌 The Local Config File
+
+📌 The Refs Directory
+
+📌 The HEAD File
+
+📌 Hashing Function Basics
+
+📌 Git objects: Blobs, Trees, and more!
+
+📌 Local Config File Git Repository: The Config File is for...configuration. We've seen how to configure global settings like name and email across all git repos, but we can also confure things on a per-repo basis
+
+📌 global Config File vs Local Config File
+
+📌 git config --local user.name <name>
+   git config user.name <name> (globally)
+
+📌 Inside of refs, you'll find a heads directory `refs/heads` contains one file per branch in a repository. Each File is named after a branch and contains the hash of the commit at the tip of the branch .
+
+📌 for example `refs/heads/master` contains the commit hash of last commit on the master branch
+
+📌 Refs also contains a `refs/tags` folder which contains one file for each tag in the repo
+
+📌 Refs contain heads, remotes, [tags]
+
+📌 HEAD is just a text file that keeps track of where HEAD Points
+if it contains refs/heads/master, This means that HEAD is pointing to the master branch
+In Detached HEAD, The HEAD file contains a commit hash instead of a branch reference
+
+📌 `Objects Folder` contains all the repo files. This where git stores the backups of files, the commits in a repo, and more
+the files are all compressed and encrypted so they won't look like much
+
+📌 There are four types of Git Objects:
+   -`Commit`
+   -`Tree`
+   -`Blob`
+   -`Annotated Tag`
+
+📌 HexDecimal Characters It is base 16 (0-9 , a-f) instead of 10 decimal
+
+📌 Hashing Functions : are functions that map input data of some arbitrary size to fixed-size out values
+
+📌 `Cryptrographic Hashing Function` is a subset of Hashing Functions
+
+📌 Cryptographic Hash Functions:
+   1.One-way function which is infeasible to invert.
+   2.Small change in input yields large change in the output.
+   3.Determinstic - same input yields same output
+   4.Avoid Collisions Unlikely to find 2 outputs with same value
+
+📌 Git Uses a hashing function called SHA-1 always genertes 40 digit hexdecimal strings so the output size is fixed
+
+📌 `SHA-1 Algorithm`
+
+📌 `hash-functions-online-domain-tools.com`
+
+📌 Git database: Git isa `key-value data store` . We can insert any kind of content into a Git repository, Git will hand us back a unique key we can later use to retrieve that content.
+Those keys that we get back are SHA-1 checksums
+
+📌 echo 'hello' | git bash-object --stdin
+   --stdin option tells git hash-object to use the content from stdin rather a file. In our example, It will hash the word "hello"
+
+📌 ```echo 'hello' | git hash-object --stdin -w```
+
+📌 
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
 📌
 
 📌
