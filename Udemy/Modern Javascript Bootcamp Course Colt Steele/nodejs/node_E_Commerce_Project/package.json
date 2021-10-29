@@ -1,0 +1,16 @@
+{
+	"name": "node_E_Commerce_Project",
+	"version": "1.0.0",
+	"description": "📌 Request -> Node Js Server -> File-based data store",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"nodemon": "^2.0.14"
+	}
+}
