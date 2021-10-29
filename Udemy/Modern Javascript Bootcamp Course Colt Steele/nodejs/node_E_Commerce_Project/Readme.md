@@ -45,7 +45,7 @@
 
 📌 req object has access to method 
 
-📌
+📌 Globally Applying Middlewares
 
 📌
 
