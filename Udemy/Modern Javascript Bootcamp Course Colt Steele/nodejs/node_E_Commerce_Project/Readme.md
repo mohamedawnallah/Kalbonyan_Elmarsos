@@ -47,15 +47,22 @@
 
 📌 Globally Applying Middlewares
 
-📌
+📌 Express server interfaces with Data storage for storing users and products list by storing it on the hardware 
+users.json
+products.json
 
-📌
+📌 - Will error if we try to ope/write the same file twitce at the same time
+   - Won't work if we have multiple servers running on different machines
+   - We have to write to the FS everytime we want to update some data
 
-📌
+📌 In Server Design and data management There are two main approaches for managing data:
+1.Repository Approach
+    - A single class (repository) is responsible for data access
+       All records are stored and used as a  plain JS object
+2.Active Record Approach
+    - Every Record is an instance of a model class that has its own methods to CRUD operations
 
-📌
-
-📌
+📌 The PlainObject type is a JavaScript object containing zero or more key-value pairs. 
 
 📌
 
