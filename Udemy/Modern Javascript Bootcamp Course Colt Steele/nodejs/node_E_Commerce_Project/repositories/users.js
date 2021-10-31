@@ -81,12 +81,13 @@ class UsersRepository {
 	}
 }
 
-const test = async () => {
-	const repo = new UsersRepository('users.json');
-	await repo.create({ email: 'test@test.com' });
-	await repo.update('a0c92fde', { password: 'myPassword' });
-	const user = await repo.getOneBy({ password: 'myPsassword' });
-	console.log(user)
-};
+// const test = async () => {
+// 	const repo = new UsersRepository('users.json');
+// 	await repo.create({ email: 'test@test.com' });
+// 	await repo.update('a0c92fde', { password: 'myPassword' });
+// 	const user = await repo.getOneBy({ password: 'myPsassword' });
+// 	console.log(user)
+// };
 
-test();
+//Exporting a User Repository Instance
+module.exports = new UsersRepository('users.json');
