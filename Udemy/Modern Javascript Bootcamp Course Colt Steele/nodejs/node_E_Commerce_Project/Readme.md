@@ -82,6 +82,18 @@ products.json
 
 📌 Signing out the user
 
+📌 Password Hashing Algorithm
+
+📌 It IS NEVER Now to take the output of Hashing Algorithm, injecting it through Hashing Algorithm, and give you the same input earlier
+
+📌 Rainbow Table Attack
+
+📌 Salt is a random string of characters that is going to prevent the user from giving us a password that is too common
+
+📌 Salting + Hashing Passwords
+
+📌
+
 📌
 
 📌
