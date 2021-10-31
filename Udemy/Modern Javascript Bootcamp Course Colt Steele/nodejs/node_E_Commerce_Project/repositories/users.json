@@ -1,1 +1,12 @@
-[{"name":"awni"}]
+[
+  {
+    "email": "test@test.com",
+    "passowrd": "password",
+    "id": "c793530a"
+  },
+  {
+    "email": "test@test.com",
+    "passowrd": "password",
+    "id": "a0c92fde"
+  }
+]

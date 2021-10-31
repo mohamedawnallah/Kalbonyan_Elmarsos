@@ -64,9 +64,9 @@ products.json
 
 📌 The PlainObject type is a JavaScript object containing zero or more key-value pairs. 
 
-📌
+📌 Better Json Formatting using JSON.stringify(<records>, null, <indentation-levels>)
 
-📌
+📌 toString('hex') In a String Hex Format
 
 📌
 
