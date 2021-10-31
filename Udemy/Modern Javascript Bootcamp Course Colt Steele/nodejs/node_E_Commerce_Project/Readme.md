@@ -70,17 +70,17 @@ products.json
 
 📌 SignUp Validation Logic 
 
-📌
+📌 Cookies are very small string of characters That servers want the browser to store
 
-📌
+📌 Request Cookies
 
-📌
+📌 Cookies are in encrypted format
 
-📌
+📌 Cookies Based Authentication
 
-📌
+📌 Dealing With COOKIES using cookie-session npm library
 
-📌
+📌 Signing out the user
 
 📌
 
