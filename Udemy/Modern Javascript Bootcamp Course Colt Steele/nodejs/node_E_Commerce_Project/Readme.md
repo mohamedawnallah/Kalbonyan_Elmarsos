@@ -68,7 +68,7 @@ products.json
 
 📌 toString('hex') In a String Hex Format
 
-📌
+📌 SignUp Validation Logic 
 
 📌
 
