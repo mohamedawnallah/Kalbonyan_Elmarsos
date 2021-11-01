@@ -94,11 +94,11 @@ products.json
 
 📌 Project Structure will be divided into Routes, Repositories, and Views Directory
 
-📌 
+📌 Adding Better Form Validation
 
-📌
+📌 An express.js middleware for validator.s
 
-📌
+📌 Validation vs Sanitization
 
-📌
+📌 Sanitization modifies each field in place applying each of sanitizers in the order they were specified
 
