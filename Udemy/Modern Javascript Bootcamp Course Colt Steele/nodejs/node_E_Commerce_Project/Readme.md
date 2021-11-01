@@ -92,9 +92,9 @@ products.json
 
 📌 Salting + Hashing Passwords
 
-📌
+📌 Project Structure will be divided into Routes, Repositories, and Views Directory
 
-📌
+📌 
 
 📌
 
