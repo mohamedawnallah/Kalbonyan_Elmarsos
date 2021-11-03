@@ -102,3 +102,6 @@ products.json
 
 📌 Sanitization modifies each field in place applying each of sanitizers in the order they were specified
 
+📌 Route Handler is a dedicated Javascript function to receive incoming requests
+
+📌 Exposing Public Directories
