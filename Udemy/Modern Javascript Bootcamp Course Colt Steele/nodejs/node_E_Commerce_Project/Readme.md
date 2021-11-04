@@ -105,3 +105,56 @@ products.json
 📌 Route Handler is a dedicated Javascript function to receive incoming requests
 
 📌 Exposing Public Directories
+
+
+📌 There is a default value method in form which is `GET` taking all the information  of form and added to url and send url to backend
+
+📌 method define how it is gonna be transmitted but `enctype` encoding type how form data is gonna be encoded
+
+📌 the default value for enctype is
+`application/x-www-form-urlencoded`
+
+📌 Form Data Multipart Submission
+
+📌 Multipart Request each part represents a different input out of the form
+
+📌 Load Balancer receives incoming requests and divide them on one instance of server instances
+
+📌 Different Methods of Image Storage:
+🚀 Co-Located Hard Disk 
+🚀 Database (The cost)
+🚀 Stream Through to Centralized Datastore from cloud provider
+🚀 Presigned URL 
+    - The best
+    - Browser makes an initial request to Servers but severs don't take the responsibility of uploading images to data store but it retures presigned Url to the browser. It has some configurations and temporary access to the browser to upload the image itself to Data store of any cloud provider you've assigned to the project before
+    -Secure, Cost-Effective
+
+📌 A presigned URL is a URL that you can provide to your users to grant temporary access to a specific S3 object
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
+
+📌
