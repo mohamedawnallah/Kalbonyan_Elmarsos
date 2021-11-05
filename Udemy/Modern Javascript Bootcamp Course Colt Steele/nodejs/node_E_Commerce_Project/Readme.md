@@ -131,7 +131,7 @@ products.json
 
 📌 A presigned URL is a URL that you can provide to your users to grant temporary access to a specific S3 object
 
-📌
+📌 Express is already written before promises and async/await
 
 📌
 
