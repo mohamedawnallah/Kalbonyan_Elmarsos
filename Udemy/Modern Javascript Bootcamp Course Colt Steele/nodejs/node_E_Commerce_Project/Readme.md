@@ -135,7 +135,7 @@ products.json
 
 📌 Whatever we show list of files, images, comments and posts ...etc we usually refer to it as an index file
 
-📌
+📌 🚀 A quick note any time we see a duplication among route handles that makes eyebrows refer to middle ware functions
 
 📌
 
