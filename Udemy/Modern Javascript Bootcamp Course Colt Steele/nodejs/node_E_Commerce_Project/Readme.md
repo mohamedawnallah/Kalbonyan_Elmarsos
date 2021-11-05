@@ -137,9 +137,9 @@ products.json
 
 📌 🚀 A quick note any time we see a duplication among route handles that makes eyebrows refer to middle ware functions
 
-📌
+📌 Anchor tag is always make a get Request to the url
 
-📌
+📌 Form element supports only get and Post Request
 
 📌
 
