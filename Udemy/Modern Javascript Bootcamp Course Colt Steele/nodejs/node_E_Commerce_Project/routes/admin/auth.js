@@ -22,9 +22,10 @@ router.get('/signup', (req, res) => {
 router.post(
 	'/signup',
 	[ requireEmail, requirePassword, requirePasswordConfirmation ],
-	handleErrors(signinTemplate),
+	handleErrors(signupTemplate),
 	async (req, res) => {
 		const { email, password } = req.body;
+
 		const user = await usersRepo.create({ email, password });
 
 		req.session.userId = user.id;
