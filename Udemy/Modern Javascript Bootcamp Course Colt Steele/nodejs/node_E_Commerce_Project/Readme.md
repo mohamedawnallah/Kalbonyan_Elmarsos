@@ -133,7 +133,7 @@ products.json
 
 📌 Express is already written before promises and async/await
 
-📌
+📌 Whatever we show list of files, images, comments and posts ...etc we usually refer to it as an index file
 
 📌
 
