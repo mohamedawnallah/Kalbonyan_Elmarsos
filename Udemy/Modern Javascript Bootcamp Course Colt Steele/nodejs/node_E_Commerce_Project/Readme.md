@@ -106,7 +106,6 @@ products.json
 
 📌 Exposing Public Directories
 
-
 📌 There is a default value method in form which is `GET` taking all the information  of form and added to url and send url to backend
 
 📌 method define how it is gonna be transmitted but `enctype` encoding type how form data is gonna be encoded
@@ -141,20 +140,19 @@ products.json
 
 📌 Form element supports only get and Post Request
 
-📌
+📌 The problems we're gonna face when using shopping cart without auth:
+-How do we assign a person to a cart? 
+-How do we assign a product to a cart
 
-📌
+📌 The first problem we will solve it 
+(through cookies sessions each product has unique id and each cart has unique Id which stored into the browser)
 
-📌
+📌 The second problem there are three solutions for it:
+-Adding carts field to Products Repository:
+    Downsides: 1.Polluting the definition of product
+               2.Will be massive array of elements as long  as the app is scaling
+-Making Carts repository once the user addes an item to thhe cart but the problem here we clone a copy of the original product from Products Repository so suppose the admin updated the price of the product from admin panel, Therefore the price is still not updated into newCarts Repository
 
-📌
+🚀 Third Field is the same as two BUT we DON't take a copy of original product from products repository but we reference it with its unique id so once the admin panel wants to update price into products repository it will be up to dae into carts repo
 
-📌
 
-📌
-
-📌
-
-📌
-
-📌

@@ -43,13 +43,15 @@ router.get('/signin', (req, res) => {
 	res.send(signinTemplate({}));
 });
 
-router.post('/signin', [ requireEmailExist, requireValidPasswordForUser ], async (req, res) => {
+router.post('/signin', [ requireEmailExist, requireValidPasswordForUser ], handleErrors(signinTemplate), async (req, res) => {
 	console.log('Exceeded If Statement');
 	const { email } = req.body;
 	const user = await usersRepo.getOneBy({ email });
-	req.session.userId = user.id;
 
-	res.redirect('/admin/products');
+	if (user) {
+		req.session.userId = user.id;
+		res.redirect('/admin/products');
+	}
 });
 
 module.exports = router;
