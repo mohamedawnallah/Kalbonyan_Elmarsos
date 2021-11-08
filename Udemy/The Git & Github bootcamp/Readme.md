@@ -860,4 +860,5 @@ Those keys that we get back are SHA-1 checksums
 📌 .gitconfig file:
    [alias] s = status l = log
 
-📌
+📌 Certificate Link:
+https://udemy-certificate.s3.amazonaws.com/pdf/UC-fbda81be-0930-46bd-b03a-ee6bb41fb355.pdf
