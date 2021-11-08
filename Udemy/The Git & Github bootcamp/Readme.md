@@ -202,7 +202,7 @@ folderName/ (will ignore the entire directory)
 
 📌 HEAD always points to latest commit you made on the master branch is SIMPLY A BRANCH POINTER
 
-📌 Branch are bookmarks only one branch can be opened
+📌 Branch are `bookmarks` only one branch can be opened
 
 📌 git branch to view current branch you're working on
 
@@ -311,7 +311,7 @@ git branch -m <new-branch-name>
 ```=======```
 📌 Reconsolidation of git log --oneline
 
-📌 git diff compares Staging Area and Working Directory
+📌 git diff compares `Staging Area and Working Directory`
 
 📌 git Explains Which file it is comparing. Usually There is two versions of the same file
 
@@ -389,7 +389,7 @@ git branch -m <new-branch-name>
 
 📌 Escaping Detached HEAD
 
-📌 Discarding Changes with gut checkout
+📌 Discarding Changes with git checkout
 
 📌 Git Restore
 
@@ -548,10 +548,10 @@ Git assumes the following:
 📌 Github Pages (Hosting Static WebPages from our repository)
 
 📌 README File is used to communicate important information about a repository including:
--What the project does?
--How to run the project?
--Why It's noteworthy?
--Who maintains the project?
+-What the project `does`?
+-How to `run` the project?
+-Why It's `noteworthy`?
+-Who `maintains` the project?
 
 📌 Github will recongnize README and automatically display it on repo's homepage
 
@@ -571,7 +571,7 @@ Git assumes the following:
 
    Projet Site: usernme.github.io/repo-name  (Each Github Repo repo can have a corresponding hosted website )
 
-📌 It is convenient to publish your project site on branch called "gh-pages"
+📌 It is convenient to publish your project site on branch called `gh-pages`
 
 📌 The Problems with Working on a single branch
 
@@ -637,7 +637,7 @@ Git assumes the following:
 📌 Why Rebase ? We get a much cleaner project history. No unnecessary merge commits! We end up with a linear project history
 
 📌 The GOLDEN RULE WHEN NOT TO REBASE?
-   Never Rebase commits that have been shared with others. If you have already pushed commits up to Github... DO NOT rebase them unless you're positive no one on the team is using those commits.
+   `Never Rebase commits that have been shared with others`. If you have already pushed commits up to Github... DO NOT rebase them unless you're positive no one on the team is using those commits.
 
 📌 Handling Conflicts & Rebasing
 
@@ -789,9 +789,9 @@ the files are all compressed and encrypted so they won't look like much
 📌 `Cryptrographic Hashing Function` is a subset of Hashing Functions
 
 📌 Cryptographic Hash Functions:
-   1.One-way function which is infeasible to invert.
-   2.Small change in input yields large change in the output.
-   3.Determinstic - same input yields same output
+   1.One-way function which is `infeasible` to invert.
+   2.`Small change` in input yields `large change` in the output.
+   3.`Determinstic` - same input yields same output
    4.Avoid Collisions Unlikely to find 2 outputs with same value
 
 📌 Git Uses a hashing function called SHA-1 always genertes 40 digit hexdecimal strings so the output size is fixed
