@@ -151,7 +151,7 @@ products.json
 -Adding carts field to Products Repository:
     Downsides: 1.Polluting the definition of product
                2.Will be massive array of elements as long  as the app is scaling
--Making Carts repository once the user addes an item to thhe cart but the problem here we clone a copy of the original product from Products Repository so suppose the admin updated the price of the product from admin panel, Therefore the price is still not updated into newCarts Repository
+-Making Carts repository once the user addes an item to the cart but the problem here we clone a copy of the original product from Products Repository so suppose the admin updated the price of the product from admin panel, Therefore the price is still not updated into newCarts Repository
 
 🚀 Third Field is the same as two BUT we DON't take a copy of original product from products repository but we reference it with its unique id so once the admin panel wants to update price into products repository it will be up to dae into carts repo
 
