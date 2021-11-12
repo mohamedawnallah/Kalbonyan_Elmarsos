@@ -1,0 +1,15 @@
+{
+	"name": "test-me",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"tme": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bin": {
+		"tme": "index.js"
+	}
+}
