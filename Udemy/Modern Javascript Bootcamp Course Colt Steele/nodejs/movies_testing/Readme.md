@@ -5,4 +5,9 @@
 🚀 Chai Library is an expectation library or an assertion library that allows to use some kind of assert statements
 🚀 Faking DOM Events
 🚀 We CAN NOT Reject a promise that is resolved
+🚀 Node based CLI Framework vs test browser-based JS apps
+🚀 
+🚀
+🚀
+🚀
 🚀
