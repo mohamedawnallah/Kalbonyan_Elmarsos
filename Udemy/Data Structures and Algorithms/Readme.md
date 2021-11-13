@@ -62,10 +62,26 @@
 🚀 Rule of Thumb according to Logarithm:
     The Logarithm of a number roughly measures the number of times you can divide that number by 2 (Halfing) before you get a value that's less than or equal to one
 
-🚀
+🚀 Big O of Objects :
+    ```When you don't need any ordering, objects are an excellent choice```
+    Insertion -< O(1)
+    Removal -< O(1)
+    Searchin -< O(n)
+    Access -< O(1)
+🚀 Big O of Object Methods:
+    - Object.keys -< O(N)
+    - Object.value -< O(N)
+    - Object.entries -< O(N)
+    - Object.hasOwnProperty -< O(N)
 
-🚀
+🚀 Arrays are ordered Unlike Objects
 
-🚀
+🚀 Big O of Arrays:
+    - Insertion -< It depends (Insert first or medium O(N) otherwise it is O(1))
+    - Removal -< It depends (Remove first or medium O(N) otherwise it is O(1))
+    - Searching -< O(N)
+    - Access -< O(1)
+
+🚀 Big O of Array Methods
 
 🚀
