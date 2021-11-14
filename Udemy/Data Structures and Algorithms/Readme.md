@@ -84,4 +84,106 @@
 
 🚀 Big O of Array Methods
 
+🚀 How do you improve Problem Solving Methodology:
+    - Devise a plan for solving problems
+    - Master Common Problem Solving Patterns
+
+🚀 Problem Solving Steps:
+    - `Understand` the Problem
+    - `Explore` Concrete Examples
+    - `Break` It Down
+    - `Solve` / `Simplify`
+    - `Look` Back, and Refactor
+
+🚀 Understanding The Problem:
+    - Can I `Restate` the problem in my own words?
+    - What are the `inputs` that go into my problem?
+    - What are the `outputs` that should come from solution
+    - Can The `Outputs` be `determined` from the `inputs`?
+        (i.e: Do I have enough information to solve the problem)
+    - How Should I `label` the important pieces of data that is part of   the problem
+
+🚀 Edge Cases searching for testing outlier functionality
+
+🚀 Concrete Examples:
+    - Start with `Simple` Examples
+    - Progress to More `Complex` Examples
+    - Explore Examples with Empty Inputs (`EdgeCases`)
+    - Explore Examples with Invalid Inputs (`Validation` and Sanitization)
+
+🚀 Break It Down:
+    - Explicitly Write Down the step you're gonna take
+    - Writing `Pseudo Code`
+
+🚀 `Solve The Problem if you can't Solve A Simpler Problem!` 
+    Don't Put all your eggs in one place
+
+🚀 Simplify:
+    - Find the core difficulty in what you're trying to do
+    - `Temporarily` `ignore` that difficulty
+    - Write` a simplified solution`
+    - Then incorporate that difficulty back in
+
+🚀 Refactoring Questions:
+    - Can you `check` the `result` ?
+    - Can you `derive` the result `differently` ?
+    - Can you `understand` it at a glance ?
+    - Can you use the result or method for some other problem ?
+    - Can you `improve` the `performance` of your solution ?
+    - How have other `people` `solved` this `problem` ?
+
+🚀 Reconsolidation of Pre-Increment or Post-Increment:
+ b = ++ x :
+ 
+ x++ 
+ b = x
+
+ b = x++
+
+ b = x
+ x++
+
+🚀 Some Problem Solving Patterns:
+    - Frequency Counter
+    - Multiple Pointers
+    - Sliding Window
+    - Divide and Conquer 
+    - Dynamic Programming
+    - Greedy Algorithms
+    - Backtracking
+    - Many More ...!
+
+🚀 Frequency Counter Problem Solving Pattern uses objects or sets to collect `values`
+   / `frequencies` of values.
+   This can often avoid the need of `nested for loops O(N**2)` operations
+   with arrays / strings
+
+🚀 Reconsolidation of Splice
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
 🚀
