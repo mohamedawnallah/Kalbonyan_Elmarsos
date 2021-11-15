@@ -160,9 +160,14 @@
 
 🚀 Reconsolidation of Splice
 
-🚀
+🚀 Anagram is a word, phrase, or a name formed by rearranging letters of another such as cinema -< iceman
+    Valid Anagram :
+        - Same `length`
+        - Same `Frequency`
 
-🚀
+🚀 Multiple Pointers :
+     - Creating `Pointers` or `values` that correspond to an `index` or `position`, and move towards the beginning, end or middle based on a `certain condition`.
+     - Very Efficient for solving problems with `minimal space complexity` as well.
 
 🚀
 
