@@ -212,7 +212,10 @@
 🚀 Binary Search only works on sorted Arrays 
    Halfing Items
 
-🚀
+🚀 Binary Search:
+    Worst Case: O(log N)
+    Average Case: O(Log N)
+    Best Case: O(1)
 
 🚀
 
