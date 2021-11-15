@@ -175,21 +175,42 @@
     - ```Very Useful for keeping track of a subset of data in an array/string etc```
     - e.g: Searching for longest sequence of unique characters in string
 
-🚀
+🚀 Divide and Conquer Problem Solving Pattern:
+     = This pattern involves `dividing` a `data set` into `smaller chunks`
+     and then repeating a `process` with a subset of data.
+     = This pattern can tremendously decrease time complexity
 
-🚀
+🚀 Linear Search Time Complexity is O(N)
 
-🚀
+🚀 Objectives Searching Section:
+      -Describe what `a searching algorithm `is
+      -Implement `linear search` on arrays
+      -Implement `binary search` on sorted arrays
+      -Implement `a naive string searching algorithm`
+      -Implement `KMP string searching algorithm`
 
-🚀
+🚀 How do we search intially?
+     Given an array, the simplest way to search for an value is to 
+     look at every element in the array and check if it is the value we wanna it
 
-🚀
+🚀 There are many different search methods on arrays in javascript:
+    -indexOf()
+    -includes()
+    -find()
+    -findIndex()
+    how do these functions work?
 
-🚀
+🚀 In Linear Search Algorithm we can start from beginning and move
+   forward or start from the end and move backward
 
-🚀
+🚀 Big O Notation Time Complexity for Linear Search depends
+   on the case :
+   Best Case: O(1)
+   Average Case: O(N)
+   Worst Case : O(N)
 
-🚀
+🚀 Binary Search only works on sorted Arrays 
+   Halfing Items
 
 🚀
 
