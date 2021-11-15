@@ -1,3 +1,4 @@
+// Naive Solution
 
 // Applying Problem Solving Approach:
 
