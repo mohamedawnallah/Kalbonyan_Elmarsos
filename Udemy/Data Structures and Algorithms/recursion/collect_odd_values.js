@@ -46,3 +46,6 @@ function collectOddValues(arr) {
  }
  
  console.log(collectOddValues([10, 13, 15, 20, 22]));
+
+
+ 

@@ -310,11 +310,22 @@ if Data is Sorted Bubble
     - Base Case
     - Different Input
 
-🚀
+🚀 Where Things Go Wrong with Recursion Pitfalls:
+    - `No Base Case`
+    - `Forgetting to return or returning the wrong thing`
+    - `Stackoverflow` === Maximum Call Stack size Exceeded
 
-🚀
+🚀 Helper Method Recursion Design Pattern
 
-🚀
+🚀 When you're making Pure Recursion Tips, 
+   for arrays, use methods like `slice`, `the spread operator`, and `concat`
+   that make copies of arrays so you `don't mutate them`
+
+   for strings(immutable by default), use methods like `slice`, `substr`, and `substring`
+   that make copies of strings
+
+   for Objects, use methods like `Object.assign`, `spread operator`
+   that make copies of Objects
 
 🚀
 
