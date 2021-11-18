@@ -217,6 +217,194 @@
     Average Case: O(Log N)
     Best Case: O(1)
 
+🚀 What is Sorting ?
+    Sorting is the process of rearranging the items
+    in a collection (e.g. an array) so that the items
+    are in some kind of order
+
+    e.g:
+     - Sorting Numbers from `smallest to largest`
+     - Sorting names `alphabetically`
+     - Sorting movies based on `release year`
+
+🚀 Why Do we need to learn Sorting Algorithms?
+     -Sorting is an incredibly common task, so it's good to know how it works
+     -There are many different ways to sort things, and different techniques
+     have their own pros, and cons
+
+🚀 Implement bubble sort
+
+🚀 Implement selection sort
+
+🚀 Implement insertion sort
+
+🚀 Understand why it is important to learn those
+   simpler sorting algorithms
+
+🚀 Bubble Sort: A Sorting Algorithm where the 
+   largest values bubbles up to the top 
+
+🚀 Bubble Sort:
+   Time Comlexity:
+      Worst Case: O(N**2)
+      Average Case: O(N**2)
+      Best Case: O(N) (with No Swaps featured)
+
+🚀 Selection Sort unlike Bubble Sort.
+   Selection Sort -< Placing Small Values into Sorted Position
+   Bubble Sort -< Placing Larger Values into Sorted Position
+
+🚀 Selection Sort is better than Bubble Sort although they're both 
+   O(N**2) but the point in Selection Sort We make only one SWAP
+   at the end of each for loop
+
+🚀 Insertion Sort:
+   -`Defintion`: Builds up the sort by gradually creating `a larger half` which is always `sorted`
+   - Is totally good for sorting online algorithm as it keeps the first half sorted in live time
+
+🚀 Elementary Sorting Algorithms 
+   (Bubble Sort, Insertion Sort, and Selection Sort)
+   also called Quadratic Sorting Algos
+
+🚀 
+
+Bubble Sort:
+if Data is Sorted Bubble
+
+🚀 Insertion Sort is good if you need your data continously sorted so new elements are being added
+
+🚀 -Define `what` recursion `is` and `how` it can be `used`
+   -Understand the two essential components of a recursive function
+   -`Visualize` `the Call Stack `to better debug and understand recursive functions
+   -Use `helper method recursion`, and `pure` `recursion` to solve more difficult problems
+
+🚀 What is Recursion ?
+   A Process (a function in our case) that calls itself with a failure condition
+
+
+🚀 Recursion Tree
+
+🚀 The only difference between Recursion, and loops are `Backtracking`
+
+🚀 Types of Recursion:
+      - Head / Top Recursion
+      - Tail / Bottom Recursion
+      - Tree Recursion
+
+🚀 JSON.parse / JSON.stringify
+   document.getElementById() and DOM Traversal Algorithms
+   Object Traversal
+
+   All of Those usages uses `RECURSION`
+
+🚀 Functions don't get Invoked Randomly but In order, Therefore we need Stack
+   Data Structure where each function is invoked it is placed on top of stack
+   when we return something or end function we Popped the function from call stack
+
+🚀 How Recursive Functions Work ?
+    Invoke the `same` function with different input until you readch your base case
+
+🚀 Base case is the condition when the recursion ends
+
+🚀 Two Essential Parts of a recursive Func:
+    - Base Case
+    - Different Input
+
 🚀
 
 🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+
+🚀
+      
