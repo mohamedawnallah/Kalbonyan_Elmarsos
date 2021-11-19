@@ -327,13 +327,17 @@ if Data is Sorted Bubble
    for Objects, use methods like `Object.assign`, `spread operator`
    that make copies of Objects
 
-🚀
+🚀 Understand the limitations of sorting algorithms we've learned so far
 
-🚀
+🚀 Implement Merge Sort
 
-🚀
+🚀 Implement Quick Sort
 
-🚀
+🚀 Implement Radix Sort
+
+🚀 Merge Sort is a combination of two things 
+   ```Splitting Up -< Merging -< Sorting```
+   
 
 🚀
 
