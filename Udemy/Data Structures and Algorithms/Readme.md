@@ -339,7 +339,10 @@ if Data is Sorted Bubble
    ```Splitting Up -< Merging -< Sorting```
    
 
-🚀
+🚀 Merge Sort Time Complexity:
+   O(log n) Decompositions
+   O(n) Comparison per Decomposition
+
 
 🚀
 
