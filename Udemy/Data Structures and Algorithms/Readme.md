@@ -374,7 +374,10 @@ if Data is Sorted Bubble
      - Traversing The LinkedList
      - Popping:
          The problem here to remove the tail node we need to go through all nodes until the previous one and that's all because of it is not a doubly linkedlist as it has only one direction.
-
+     - `Shifting`:
+         `Remove` node from beginning
+     - `Unshift`:
+         `Adding` a new node to the beginning of linkedlist
 
 🚀
 
