@@ -344,19 +344,28 @@ if Data is Sorted Bubble
    O(n) Comparison per Decomposition
 
 
-🚀
+🚀 Data Structures are `collections of values`, 
+   the `relationships` among them, and the functions or
+    `operations` can be applied to the `data`
 
-🚀
+🚀 Different Data Structures `excel` at different things.
+   Some are highly `specialized`, while others (like arrays)
+   are `generally` used
 
-🚀
+🚀 `We're going to implement Data Structures as classes`
 
-🚀
+🚀 The method to create new objects must be called Constructor
 
-🚀
+🚀 Instance Methods vs Static Methods
 
-🚀
+🚀 LinkedList:
+    - Data Structure Contains Head, Tail, and Length
+    - Nodes, Each Node has a value, and a pointer
+    - Accessing Node in Linkedlist like going up on stairs unlike arrays which like elevator you've random access to everything you wanna
+    - LinkedList is a collection of Nodes
+    - Pushing means adding a new node at the end of linkedlist  
 
-🚀
+🚀 Reconsolidation the difference between null, 0
 
 🚀
 
