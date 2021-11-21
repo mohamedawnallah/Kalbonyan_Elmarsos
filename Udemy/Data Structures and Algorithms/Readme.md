@@ -381,7 +381,10 @@ if Data is Sorted Bubble
      - Get:
          Retrieving a `node` by it's position in the linkedlist
      - Set
-     - Insert       
+     - Insert
+     - Remove
+     - Reverse:
+         Reverse LinkedList means Reverse Pointers       
 
 🚀
 
