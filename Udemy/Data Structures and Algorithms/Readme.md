@@ -367,7 +367,14 @@ if Data is Sorted Bubble
 
 🚀 Reconsolidation the difference between null, 0
 
-🚀
+🚀 LinkedList Implementation:
+     - Pushing
+     - Insert After
+     - Append
+     - Traversing The LinkedList
+     - Popping:
+         The problem here to remove the tail node we need to go through all nodes until the previous one and that's all because of it is not a doubly linkedlist as it has only one direction.
+
 
 🚀
 
