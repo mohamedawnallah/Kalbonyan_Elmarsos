@@ -378,6 +378,10 @@ if Data is Sorted Bubble
          `Remove` node from beginning
      - `Unshift`:
          `Adding` a new node to the beginning of linkedlist
+     - Get:
+         Retrieving a `node` by it's position in the linkedlist
+     - Set
+     - Insert       
 
 🚀
 
