@@ -386,11 +386,17 @@ if Data is Sorted Bubble
      - Reverse:
          Reverse LinkedList means Reverse Pointers       
 
-🚀
+🚀 DoublyLinkedList is similar to SinglyLinkedList but as an addition each node has a pointer
+   to the previous node
 
-🚀
+🚀 Big O Notaiton of Doubly LinkedList :
+    - Insertion : Constant Time Complexity O(1)
+    - Removal: Constant Time Complexity O(1)
+    - Searching: O(N)
 
-🚀
+🚀 Doubly Linked List:
+    - Is almost Identical to Singly Linked List there is an additional pointer to previous nodes
+    - Nearly In Searching for an element through an index we use Divide, and Conquer
 
 🚀
 

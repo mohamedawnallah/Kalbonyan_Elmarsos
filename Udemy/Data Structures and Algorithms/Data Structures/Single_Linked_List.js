@@ -32,6 +32,8 @@ class SinglyLinkedList {
 			currentNode = currentNode.next;
 		}
 		this.length--;
+		this.tail = newTail;
+        this.tail.next = null;
 		if (this.length === 0) {
 			this.head = null;
 			this.tail = null;
@@ -128,4 +130,40 @@ class SinglyLinkedList {
            }
            console.log(arr);
        }
+}
+
+reverse(){
+
+	let currentNode = this.head;
+
+	this.head = this.tail;
+
+	this.tail = currentNode;
+
+	let nextNode = null;
+
+	let prevNode = null;
+
+
+
+	for(let i = 0; i < this.length; i++) {
+
+		nextNode = currentNode.next;
+
+		currentNode.next = prevNode;
+
+		currentNode.prev = nextNode;
+
+		prevNode = currentNode;
+
+		currentNode = nextNode;
+
+	}
+
+   
+
+	return this;
+
+   
+
 }
