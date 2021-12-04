@@ -398,19 +398,110 @@ if Data is Sorted Bubble
     - Is almost Identical to Singly Linked List there is an additional pointer to previous nodes
     - Nearly In Searching for an element through an index we use Divide, and Conquer
 
-🚀
+🚀 ADT is a logical description and data structure is concrete
 
-🚀
+🚀 Abstract Data type (ADT) is a type (or class) for objects whose behaviour is defined by `a set of value and a set of operations.`
 
-🚀
+🚀 Stack:
+    - Use Cases:
+           Managing Fucntions Invocations
+           Undo / Redo Functionality
+           Routing (The History Object) is Treated as a Stack
+    - Stack is a concept (LIFO) More than a code
+    - There is more than way of Implementing the Stack
+    - Operations:
+        Push
+        Pop
+    - Implementation:
+        - Using Arrary
+        - Using LinkedList 
+    - Time Complexity:
+       Insertion : O(1)
+       Removal : O(1)
+       Searching : O(N)
+       Access : O(N)
+🚀 Queue:
+    - It is a concept more than implementation
+    - A FIFO Data Structure
+    - Use Cases:
+        Background Process
+        Queue of Joining Players in a Game
+        Uploading Resources (Can happen Concurently)
+        Printing / Task Processing
+    - Operations:
+         Enqueue
+         Dequeue
+    - Implementation:
+         - Using Array:
+             Enqueue:(Pushing) O(1) 
+             Dequeu:(Shifting) O(N)  
+         - Using LinkedList:
+             
 
-🚀
+🚀 Trees Data Structure:
+    - What a Tree is ? :
+       Tree is a non-linear data structure which organizes data in a hierarchical structure and this is a recursive definition.
+        - Tree Terminologies:
+       Root:
+        The first node from where the tree originates is called as `a root node`.
+        In any tree, there must be `only one root node.`
+       Edge:
+        `The connecting link` between any two nodes is called as `an edge`
+         In a tree with n number of nodes, there are exactly `(n-1) number of edges.`
+       Parent:
+         The node which has a branch from it to any other node is called as `a parent node.`
+         In other words, the node which has one or more children is called as a parent node.
+         `In a tree, a parent node can have any number of child nodes.`
+       Child:
+         The node which is a `descendant` of some node is called as `a child node`.
+         All the nodes except root node are child nodes
+       Siblings:
+         In other words, nodes with the same parent are `sibling nodes.`
+       Degree:
+         `Degree of a node` is `the total number of children` of that node.
+         `Degree of a tree` is `the highest degree of a node among all the nodes` in the tree.
+       Leaf:
+         Every non-leaf node is an internal node.
+       Leaf Node:
+         The node which `does not have any child` is called as a leaf node.
+       Level:
+         In a tree, each step from `top to bottom is called as level of a tree.`
+       Height:
+         Total number of edges that lies on `the longest path from any leaf node to a particular node` is called as height of that node.
+         `Height of all leaf nodes = 0`
+       Depth:
+         Total number of edges from root node to a particular node is called as depth of that node.
+       Subtree:
+         In a tree, each child from a node forms a subtree recursively.
+       Forest:
+         A forest is a set of disjoint trees.
+    - Use cases of Trees:
+        HTML DOM
+        Network Routing
+        Abstract Syntax Tree
+        Artificial Intelligence
+        Folders in Operating System
+        Computer File Systems
 
-🚀
+    - Compare and contrast trees and lists ?
+    - Differences between Trees, Binary Trees, Binary Search Trees ?
+    - Implement Operations On Binary Search Operations
+    - Binary Trees :
+        Each Node can have at `most two children`
+    - Binary Search Trees:
+        Binary Trees + Sortable One
 
-🚀
+🚀 Tree Traversal:
+    - Def: Visiting Each Node At Least One Time
+    - Breadth First Search
+    - Depth First Search:
+       - InOrder 
+       - PreOrder
+       - PostOrder
 
-🚀
+🚀 When To Use Depth First Search, Breadth First Search?
+   - It depends really on a width of the tree -> Space Complexity
+   - 
 
 🚀
 
